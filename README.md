@@ -13,8 +13,8 @@ project/
 │   ├── XP_robot_upper_body.xml
 
 │   ├── assets/
-│
-│── robot_pose/
+
+│── |robot_pose/
 
 │   ├── pose_control.py
 
