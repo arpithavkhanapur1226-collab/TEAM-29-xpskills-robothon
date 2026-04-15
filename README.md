@@ -45,12 +45,20 @@ Ensures stability and smooth movement
 
 **Workflow**
 Webcam Input (MediaPipe)
+
         ↓
+        
 Joint Angle Extraction
+
         ↓
+        
 pose_control.py
+
         ↓
+        
 PD Controller
+
         ↓
+        
 MuJoCo Robot Simulation
 
