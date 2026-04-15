@@ -4,25 +4,23 @@ We implemented a humanoid robot control system using MediaPipe. A webcam capture
 **XP_robot.zip (Your Humanoid / MuJoCo Model)**
 Project Structure
 
-project/
+## 📂 Project Structure
 
-│── XP_robot/
-
+```
+.
+├── XP_robot/
 │   ├── XP_robot_with_actuators.xml
-
 │   ├── XP_robot_upper_body.xml
-
-│   ├── assets/
-
-│── |robot_pose/
-
+│   └── assets/
+│
+├── robot_pose/
 │   ├── pose_control.py
-
 │   ├── pd_control.py
+│   └── configs/
+│
+└── README.md
+```
 
-│   ├── configs/
-
-│── README.md
 
 **1. Robot Model (MuJoCo XML)**
 XP_robot_with_actuators.xml
