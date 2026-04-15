@@ -22,7 +22,6 @@ project/
 
 │   ├── configs/
 
-│
 │── README.md
 
 **1. Robot Model (MuJoCo XML)**
@@ -37,9 +36,11 @@ Control System
 1.MediaPipe
 Captures human pose using webcam
 Extracts joint angles
+
 2.pose_control.py
 Main execution file
 Maps human joint angles → robot joints
+
 3.pd_control.py
 Implements Proportional-Derivative (PD) controller
 Ensures stability and smooth movement
