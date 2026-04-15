@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  lerobot:
+    image: sahillathwal/physical-ai-challange-2026
+    container_name: lerobot_hackathon_env
+    privileged: true
+    network_mode: host
+    ipc: host
+    pid: host
+
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+
+    volumes:
+      - ./workspace:/home/hacker/workspace
+      - /mnt/c/Users/sinch:/mnt/windows
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /mnt/wslg:/mnt/wslg
+      - /run/user/1000:/run/user/1000
+
+    stdin_open: true
+    tty: true
